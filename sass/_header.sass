@@ -1,0 +1,140 @@
+.container 
+    margin: 0 auto 
+    padding: 0 20px 
+    max-width: 1200px 
+    z-index: 2 
+    position: relative 
+
+
+header 
+    position: fixed 
+    background-color: #ff5246
+    padding: 15px 0 16px 0 
+    margin: 0 auto 
+    width: 100% 
+    z-index: 7 
+    +desktop-landscape
+        height: 200px
+        a
+            font-size: 25px
+    +mini-landscape
+        height: 350px
+    a 
+        text-decoration: none 
+    p
+        margin: 0
+        overflow: hidden
+
+.ico
+    width: 45px
+
+@keyframes rotate  
+  100%  
+    transform: rotate(360deg)
+    
+
+.music
+    height: 30px
+    width: 170px
+    border: 2px solid black
+    border-radius: 30px
+
+
+.flex 
+    display: flex 
+    justify-content: space-between 
+
+.disc
+    animation: rotate 6s linear infinite
+    height: 80px
+
+.loge
+    width: 230px
+
+
+.logo 
+    width: 280px
+    height: 50px
+    display: flex
+    flex-direction: row
+    flex-wrap: nowrap
+    justify-content: space-between
+    align-items: center
+
+
+.header-flex  
+    display: flex 
+    justify-content: space-between 
+    align-items: center 
+    height: 60px 
+    +desktop-landscape
+        flex-direction: column
+ 
+
+a 
+    text-decoration: none 
+ 
+
+.white 
+    color: #000000
+    &:hover
+        color: #000000
+ 
+
+.grey 
+    color: #000000
+    &:hover
+        color: #000000
+ 
+
+.nav-flex  
+    display: flex 
+    justify-content: space-between 
+    align-items: center
+    align-content: center
+    gap: 25px
+    +desktop-landscape
+        flex-wrap: wrap
+        width: 400px
+    +mini-landscape
+        flex-direction: column
+
+ 
+
+.nav_item  
+    display: flex 
+    align-items: center 
+    justify-content: space-between 
+    height: 20px 
+    gap: 5px 
+
+.arrow
+    width: 17px
+    margin-left: -40px 
+
+.user 
+    a  
+        width: 20px 
+        height: 20px 
+        flex-shrink: 0 
+    img
+        height: 40px
+
+.myxbox 
+    a
+        width: 120px
+        color: #000000
+        &:hover
+            color: #000000
+        &:visited
+            color: #000000
+    .mini
+        a
+            color:  #000000
+            &:visited
+                color:  #000000
+
+
+  
+
+
